@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antiques Prague</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+
+        
+        /* ... (CSS chung từ ví dụ trước) ... */
+        header h1 {
+            text-align: center; /* Căn giữa tiêu đề */
+            color: rgb(84, 11, 11)
+            
+            
+          
+
+        }
+        .main-nav {
+            display: flex; /* Sử dụng flexbox cho menu và tìm kiếm */
+            align-items: center; /* Canh giữa theo chiều dọc */
+            justify-content: center;
+            background-color: #fff;
+            padding: 10px 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .main-nav nav {
+            display: flex; /* Để các link nằm trên cùng một dòng */
+            margin: 0 15px; /* Khoảng cách giữa các link */
+        }
+        .main-nav nav a {
+            text-decoration: none;
+            color: rgb(84, 11, 11); /* Màu đỏ theo yêu cầu */
+            margin: 0 10px;
+        }
+        .main-nav .search-box {
+            margin-left: 20px; /* Khoảng cách giữa menu và ô tìm kiếm */
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1 class="firstheading">Antiques Prague</h1>
+        </header>
+
+
+    <div class="main-nav">
+        <nav>
+            <a href="antique-clock.html">Antique clock</a>
+            <a href="meissen.html">Meissen</a>
+            <a href="crystal-glass.html">Crystal glass</a>
+            <a href="ceramics.html">Porcelain</a>
+        </nav>
+   
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button type="submit">Go</button> </form>
+            
+        </div>
+    </div>
+
+    <main>
+        </main>
+    <footer>
+      
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+    <!-- Phần đầu-->
+ <head>
+<title>shop</title>
+<meta charset="utf-shop">
+<link rel="stylesheet" href="main.css">
+<style>
+    h1{color: rgb(84, 11, 11)  ;
+    font-size: 40px; font-family: 'Playfair Display', serif; 
+      font-size: 50px;                        
+      font-weight: 600;                      
+      color: #2c2c2c;                         
+      margin-bottom: 20px;
+      text-align: center;     }
+    p{ font-family: 'Playfair Display', serif; 
+      font-size: 20px;                        
+      line-height: 1.8;                      
+      color: #2c2c2c;                      
+      margin: 20px; }
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .second-heading {
+      font-size: 24px;
+      font-weight: bold;
+      color: #6A2C2A;
+      text-decoration: none;
+      margin: 15px 0;
+      display: inline-block;
+    }
+    .image-container {
+  display: flex; /* Bật Flexbox */
+  flex-wrap: wrap; /* Cho phép xuống dòng nếu không đủ chỗ */
+  justify-content: center; /* Căn giữa theo chiều ngang (tùy chọn) */
+  gap: 10px; /* Khoảng cách giữa các hình ảnh */
+}
+
+.image-container img {
+  width: 200px; /* Chiều rộng của mỗi hình ảnh */
+  height: auto; /* Chiều cao tự động để giữ tỷ lệ */
+  border: 1px solid #ccc; /* Viền (tùy chọn) */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+
+  </style>
+   
+ </head>
+ <!-- Phần thân -->
+<body> 
+
+    
+    <div>
+      
+       
+    
+        <p> Welcome to Prague Antiques, where each item carries a story, a breath of bygone eras. If you are someone who loves old values, appreciates historical beauty and wants to find a piece of memory to beautify your living space, then this is the place for you. At Prague Antiques, we offer a variety of antiques such as porcelain, bronze, pictures, wooden furniture... All are carefully selected by Mr. Nguyen Hoang Hai, a person who not only loves things. old but still living with that passion.
+            <div class="image-container">
+  <img src="https://scontent.fbrq1-1.fna.fbcdn.net/v/t39.30808-6/468598370_416314968216894_4401939421610214740_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WBazYhEsvRYQ7kNvgG-_zqr&_nc_zt=23&_nc_ht=scontent.fbrq1-1.fna&_nc_gid=AwAW_7gwqxyfZOvC7hOLvqU&oh=00_AYB7_2PV4loIWZch9Vs-8c6Y3wF-ACigftI7coPa73OCrg&oe=678055F9" alt="Hình ảnh 1">
+  <img src="https://scontent.fbrq1-1.fna.fbcdn.net/v/t39.30808-6/427872772_443323591400566_9117659019785312877_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Kn70FXuhuC4Q7kNvgEza4du&_nc_zt=23&_nc_ht=scontent.fbrq1-1.fna&_nc_gid=AC3xHIkekzjXx8PrpuKfUGA&oh=00_AYA9e5UpkYXi8THo81-VcxGbL4CSwNyhBE53htIlpE6IRg&oe=6781B780" alt="Hình ảnh 2">
+  <img src="https://scontent.fbrq1-1.fna.fbcdn.net/v/t39.30808-6/333323451_5941351102611712_3946801036324783097_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DX8H-gL8L8cQ7kNvgGO_F1d&_nc_zt=23&_nc_ht=scontent.fbrq1-1.fna&_nc_gid=An0UvnQnIHMTEGRfl7ngRcX&oh=00_AYAHRhr6ZU8-sHfVN6OMF7uRiPWmSz_M2WM06ooDV-LwbQ&oe=6781B5B0" alt="Hình ảnh 3">
+  <img src="https://scontent.fbrq1-1.fna.fbcdn.net/v/t39.30808-6/309997922_209842848081976_5222363351153274121_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=HqnXerSgw-EQ7kNvgFkR9wk&_nc_zt=23&_nc_ht=scontent.fbrq1-1.fna&_nc_gid=AcchA6uQQaFz6GjrxEGvg5f&oh=00_AYAklVFLQjjwtbIXEERFIIr_JxBA6iICeGTAvAxj2-wLLA&oe=6781B944" alt="Hình ảnh 4">
+  <img src="https://scontent.fbrq1-1.fna.fbcdn.net/v/t39.30808-6/319860330_715370953354892_5357035004913259417_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6oaX7ptSW40Q7kNvgECYqrb&_nc_zt=23&_nc_ht=scontent.fbrq1-1.fna&_nc_gid=Am2UZAUKaw1T-y4xE8H1FBi&oh=00_AYDvoHZ9M-fYF91z3iY_fu8whd6vkx90bb5-BEkFC9DxSw&oe=6781A843" alt="Hình ảnh 4">
+  </div>
+
+            <h1 class="second-heading">Shop at Antiques Prague</h1>
+        <p> Purchasing here is very simple and transparent:
+
+            Step 1. Livestream: Follow livestreams on Facebook Page: Prague Antiques to see products and close orders on the spot.
+           Step 2. Payment: We only accept 100% advance transfer, no deposit, to ensure clear transactions and avoid unnecessary risks.
+        Step 3. Wait for your product to arrive, happy shopping</p>
+        
+      
+         
+
+         
+
+    
+
+    <h2></h2>
+          
+     </p>
+    <div class="center">
+    
+    </div>
+     <style>
+    
+        img {
+          width: 10%;
+          max-width: 800px;
+          height: auto;
+        }
+    
+        
+
+
+</body>
+</html>
+
+#first-heading {color: rgb(87, 10, 10) ;
+    font-size: 50px; <h1 class="styled-heading">Korean Antiques</h1>
+
+    <style>
+      .styled-heading {
+        font-family: "Georgia", serif; /* Kiểu font */
+        font-size: 36px;              /* Kích thước */
+        font-weight: 400;             /* Độ đậm */
+        text-align: center;           /* Căn giữa */
+        letter-spacing: 0.5px;        /* Khoảng cách giữa chữ */
+        line-height: 1.2;             /* Khoảng cách dòng */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Bóng mờ */
+        color: #690f0 
+      }
+    </style>
+    
+}
+    .second-heading {font-family: 'Playfair Display', serif; 
+        font-size: 20px;                        
+        line-height: 1.8;                      
+        color: #690f0a;                      
+        margin: 20px; }
+        font-weight: bold;
+
+ .normal
+
